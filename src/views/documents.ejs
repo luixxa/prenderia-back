@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Documentacion CRUD Clientes</h1>
+
+    <table border="1">
+        <tbody>
+            <tr>
+                <td><strong>Número</strong></td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td><strong>Nombre del webservice</strong></td>
+                <td>Registrar un cliente</td>
+            </tr>
+            <tr>
+                <td><strong>URI</strong></td>
+                <td>/cliente/registrar</td>
+            </tr>
+            <tr>
+                <td><strong>Descripción</strong></td>
+                <td>Formulario para registrar los datos básicos de un cliente en el sistema.</td>
+            </tr>
+            <tr>
+                <td><strong>Verbo HTTP</strong></td>
+                <td>POST</td>
+            </tr>
+            <tr>
+                <td><strong>Header</strong></td>
+                <td>
+                No aplica
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Usuarios</strong></td>
+                <td>Clientes</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td><strong>Número</strong></td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td><strong>Nombre del webservice</strong></td>
+                <td>Listar todos los clientes</td>
+            </tr>
+            <tr>
+                <td><strong>URI</strong></td>
+                <td>/cliente/listar</td>
+            </tr>
+            <tr>
+                <td><strong>Descripción</strong></td>
+                <td>Obtiene la lista completa de clientes registrados en el sistema.</td>
+            </tr>
+            <tr>
+                <td><strong>Verbo HTTP</strong></td>
+                <td>GET</td>
+            </tr>
+            <tr>
+                <td><strong>Header</strong></td>
+                <td>No aplica</td>
+            </tr>
+            <tr>
+                <td><strong>Usuarios</strong></td>
+                <td>Clientes</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td><strong>Número</strong></td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td><strong>Nombre del webservice</strong></td>
+                <td>Buscar cliente</td>
+            </tr>
+            <tr>
+                <td><strong>URI</strong></td>
+                <td>/cliente/buscar/identificador</td>
+            </tr>
+            <tr>
+                <td><strong>Descripción</strong></td>
+                <td>Permite buscar los datos de un cliente específico por su identificador.</td>
+            </tr>
+            <tr>
+                <td><strong>Verbo HTTP</strong></td>
+                <td>GET</td>
+            </tr>
+            <tr>
+                <td><strong>Header</strong></td>
+                <td>No aplica</td>
+            </tr>
+            <tr>
+                <td><strong>Usuarios</strong></td>
+                <td>Clientes</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <table border="1">
+        <tbody>
+            <tr>
+                <td><strong>Número</strong></td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td><strong>Nombre del webservice</strong></td>
+                <td>Actualizar cliente</td>
+            </tr>
+            <tr>
+                <td><strong>URI</strong></td>
+                <td>/cliente/actualizar/identificador</td>
+            </tr>
+            <tr>
+                <td><strong>Descripción</strong></td>
+                <td>Actualiza la información de un cliente existente en el sistema.</td>
+            </tr>
+            <tr>
+                <td><strong>Verbo HTTP</strong></td>
+                <td>PUT</td>
+            </tr>
+            <tr>
+                <td><strong>Header</strong></td>
+                <td>No aplica</td>
+            </tr>
+            <tr>
+                <td><strong>Usuarios</strong></td>
+                <td>Clientes</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <table border="1">
+        <tbody>
+            <tr>
+                <td><strong>Número</strong></td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td><strong>Nombre del webservice</strong></td>
+                <td>Eliminar cliente</td>
+            </tr>
+            <tr>
+                <td><strong>URI</strong></td>
+                <td>/cliente/eliminar/identificador</td>
+            </tr>
+            <tr>
+                <td><strong>Descripción</strong></td>
+                <td>Elimina un cliente registrado en el sistema usando su identificador.</td>
+            </tr>
+            <tr>
+                <td><strong>Verbo HTTP</strong></td>
+                <td>DELETE</td>
+            </tr>
+            <tr>
+                <td><strong>Header</strong></td>
+                <td>No aplica</td>
+            </tr>
+            <tr>
+                <td><strong>Usuarios</strong></td>
+                <td>Clientes</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br><br>
+
+    <h1>Documentacion CRUD articulos</h1>
+    <br><br>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td><strong>Número</strong></td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td><strong>Nombre del webservice</strong></td>
+                <td>Registrar un artículo</td>
+            </tr>
+            <tr>
+                <td><strong>URI</strong></td>
+                <td>/articulo/registrar</td>
+            </tr>
+            <tr>
+                <td><strong>Descripción</strong></td>
+                <td>Formulario para registrar los datos básicos de un artículo en el sistema.</td>
+            </tr>
+            <tr>
+                <td><strong>Verbo HTTP</strong></td>
+                <td>POST</td>
+            </tr>
+            <tr>
+                <td><strong>Header</strong></td>
+                <td>No aplica</td>
+            </tr>
+            <tr>
+                <td><strong>Usuarios</strong></td>
+                <td>Administradores</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td><strong>Número</strong></td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td><strong>Nombre del webservice</strong></td>
+                <td>Listar todos los artículos</td>
+            </tr>
+            <tr>
+                <td><strong>URI</strong></td>
+                <td>/articulo/listar</td>
+            </tr>
+            <tr>
+                <td><strong>Descripción</strong></td>
+                <td>Obtiene la lista completa de artículos registrados en el sistema.</td>
+            </tr>
+            <tr>
+                <td><strong>Verbo HTTP</strong></td>
+                <td>GET</td>
+            </tr>
+            <tr>
+                <td><strong>Header</strong></td>
+                <td>No aplica</td>
+            </tr>
+            <tr>
+                <td><strong>Usuarios</strong></td>
+                <td>Administradores, Empleados</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td><strong>Número</strong></td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td><strong>Nombre del webservice</strong></td>
+                <td>Buscar artículo</td>
+            </tr>
+            <tr>
+                <td><strong>URI</strong></td>
+                <td>/articulo/buscar</td>
+            </tr>
+            <tr>
+                <td><strong>Descripción</strong></td>
+                <td>Busca los detalles de un artículo específico usando su código o nombre.</td>
+            </tr>
+            <tr>
+                <td><strong>Verbo HTTP</strong></td>
+                <td>GET</td>
+            </tr>
+            <tr>
+                <td><strong>Header</strong></td>
+                <td>No aplica</td>
+            </tr>
+            <tr>
+                <td><strong>Usuarios</strong></td>
+                <td>Administradores, Empleados</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td><strong>Número</strong></td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td><strong>Nombre del webservice</strong></td>
+                <td>Actualizar artículo</td>
+            </tr>
+            <tr>
+                <td><strong>URI</strong></td>
+                <td>/articulo/actualizar</td>
+            </tr>
+            <tr>
+                <td><strong>Descripción</strong></td>
+                <td>Permite actualizar la información de un artículo existente.</td>
+            </tr>
+            <tr>
+                <td><strong>Verbo HTTP</strong></td>
+                <td>PUT</td>
+            </tr>
+            <tr>
+                <td><strong>Header</strong></td>
+                <td>No aplica</td>
+            </tr>
+            <tr>
+                <td><strong>Usuarios</strong></td>
+                <td>Administradores</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td><strong>Número</strong></td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td><strong>Nombre del webservice</strong></td>
+                <td>Eliminar artículo</td>
+            </tr>
+            <tr>
+                <td><strong>URI</strong></td>
+                <td>/articulo/eliminar</td>
+            </tr>
+            <tr>
+                <td><strong>Descripción</strong></td>
+                <td>Elimina un artículo registrado en el sistema mediante su código o nombre.</td>
+            </tr>
+            <tr>
+                <td><strong>Verbo HTTP</strong></td>
+                <td>DELETE</td>
+            </tr>
+            <tr>
+                <td><strong>Header</strong></td>
+                <td>No aplica</td>
+            </tr>
+            <tr>
+                <td><strong>Usuarios</strong></td>
+                <td>Administradores</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>    
+    
+    <h1>Documentacion CRUD alquiler</h1>
+</body>
+</html>
